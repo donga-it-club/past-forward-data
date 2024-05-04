@@ -35,7 +35,7 @@
 - 버전 및 이슈관리 : Github, Github Issues, Github Project
 - 협업 툴 : Discord, Notion, Slack
 - 디자인 : [Figma](https://www.figma.com/file/zJaBNvTvLlG0d9h5TILICj/Past-Forward-Web-Site?type=design&node-id=1157%3A6652&mode=design&t=eI1Pvgp8EpiHQgEA-1)
-  <br>
+<br>
   
 ## 2. 프로젝트 기간
 - (ver1) 1차 프로젝트 기간: 2024-02-01 ~ 2024-05-04
