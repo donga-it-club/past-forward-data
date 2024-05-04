@@ -36,8 +36,11 @@
 - 협업 툴 : Discord, Notion, Slack
 - 디자인 : [Figma](https://www.figma.com/file/zJaBNvTvLlG0d9h5TILICj/Past-Forward-Web-Site?type=design&node-id=1157%3A6652&mode=design&t=eI1Pvgp8EpiHQgEA-1)
   <br>
+  
+## 2. 프로젝트 기간
+- (ver1) 1차 프로젝트 기간: 2024-02-01 ~ 2024-05-04
 
-## 2. ver1까지의 프로젝트 진행 내용
+## 3. ver1까지의 프로젝트 진행 내용
 ### 사용자 발생 전 측정 전략을 수립하고, 데이터 분석 설계를 진행
 - 측정 전략 수립
   - 궁금한 내용에 대한 질문 모음 및 기획
