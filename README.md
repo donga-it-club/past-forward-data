@@ -55,3 +55,5 @@
   - 관리 시트를 작성하여 설정 과정의 체계적으로 관리
   - GA4 연결 관리 시트 링크: [GA 이벤트(태그 및 트리거) 관리 시트](https://docs.google.com/spreadsheets/d/14MOWROUp9OW6DUsmbUVyK9VuWGpBPQ2UsueqGhLjG64/edit?usp=sharing)
 <br>
+### 분석 보고서 작성
+- Past Forward 버전 1 웹사이트와 GA4를 연결하여 수집된 데이터를 분석하여 사용자 행동, 웹사이트 이용 패턴, 전환율 등을 분석해 성과를 측정하고 개선 방향을 제시
