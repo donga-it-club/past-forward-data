@@ -39,6 +39,7 @@
   
 ## 2. 프로젝트 기간
 - (ver1) 1차 프로젝트 기간: 2024-02-01 ~ 2024-05-04
+- (ver2) 2차 프로젝트 기간: 2024-05-05 ~ 2024-08-30
 <br>
 
 ## 3. ver1까지의 프로젝트 진행 내용
@@ -52,4 +53,5 @@
 - GA4와 웹사이트 연결 작업
   - GA4 태그 및 트리거 설정을 통해 웹사이트와의 연결을 진행
   - 관리 시트를 작성하여 설정 과정의 체계적으로 관리
+  - GA4 연결 관리 시트 링크: [GA 이벤트(태그 및 트리거) 관리 시트](https://docs.google.com/spreadsheets/d/14MOWROUp9OW6DUsmbUVyK9VuWGpBPQ2UsueqGhLjG64/edit?usp=sharing)
 <br>
