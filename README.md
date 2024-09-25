@@ -1,13 +1,14 @@
 # 📖 팀 회고 작성 서비스 웹 Past-Forward
 
 
-![mainPage](https://github.com/donga-it-club/past-forward-frontend/assets/138123134/b19cc815-677f-42e8-ab35-f7acfa4bf988) <br>
+![ver1_mainPage](https://github.com/donga-it-club/past-forward-frontend/assets/138123134/b19cc815-677f-42e8-ab35-f7acfa4bf988) <br>
 
 <div align='center'>
 [💻 사이트 바로가기](https://www.pastforward.link/)
   <br>
 </div>
 <br>
+
 
 ## 프로젝트 소개
 
@@ -77,6 +78,7 @@
 <br>
 
  ## 4. ver2까지의 프로젝트 진행 내용
+  ![ver2_mainPage](https://github.com/donga-it-club/past-forward-data/blob/main/img/VER2%20PastForward%20%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8.gif) <br>
 - GA4 심층 데이터 분석: 신규 유입자와 재방문자 비율, 이탈률 등 Ver1 데이터를 기반으로 정교한 분석 진행
 - A/B 테스트 진행: 회원가입 버튼명에 관한 A/B 테스트를 진행
 - 대시보드 구현: 루커 스튜디오로 첫 사용자 소스, 활성 사용자 비율, 반복 방문자 비율 등 주요 지표를 시각화하여 데이터 분석 효율성을 높임.
@@ -98,4 +100,8 @@
   - 사용자 활성화 및 리텐션 분석
   - 반복방문자 비율
   - 신규 방문자 재방문자 비교 분석
-  - 총 방문자 수 
+  - 총 방문자 수
+  
+  ![대시보드화면](https://github.com/donga-it-club/past-forward-data/blob/main/img/%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C%20%EA%B5%AC%ED%98%84.gif) 
+<br>
+ 
