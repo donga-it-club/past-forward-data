@@ -30,11 +30,11 @@
 
 <br>
 
-## 1. 개발 환경
-- 데이터 분석 툴: GA4
-- 버전 및 이슈관리 : Github, Github Issues, Github Project
-- 협업 툴 : Discord, Notion, Slack
-- 디자인 : [Figma](https://www.figma.com/file/zJaBNvTvLlG0d9h5TILICj/Past-Forward-Web-Site?type=design&node-id=1157%3A6652&mode=design&t=eI1Pvgp8EpiHQgEA-1)
+## 1. 🛠 기술 스택
+- 데이터 분석 도구: GA4, 루커 스튜디오
+- 버전 및 이슈 관리: Github, Github Issues, Github Project
+- 협업 도구: Discord, Notion, Slack
+- 디자인 도구: [Figma](https://www.figma.com/file/zJaBNvTvLlG0d9h5TILICj/Past-Forward-Web-Site?type=design&node-id=1157%3A6652&mode=design&t=eI1Pvgp8EpiHQgEA-1)
 <br>
   
 ## 2. 프로젝트 기간
@@ -43,7 +43,10 @@
 <br>
 
 ## 3. ver1까지의 프로젝트 진행 내용
-### 사용자 발생 전(서비스 배포 전) 측정 전략 수립 및 데이터 분석 설계 진행
+- 데이터 수집: GA4 및 구글 태그매니저(GTM)를 통해 사용자 데이터를 수집
+- 분석 내용: 사용자 수, 이탈률, 트래픽 소스, 회원가입 경로, 회고 생성 이벤트, 로그인 이벤트 등 다양한 사용자 행동 데이터를 분석하였습니다
+  
+### 데이터 수집: 사용자 발생 전(서비스 배포 전) 측정 전략 수립 및 데이터 분석 설계 진행
 - 측정 전략 수립
   - 분석하고자 하는 핵심 질문을 도출하고 기획
   - 필요한 지표를 정리하여 측정 전략을 체계적으로 수립
@@ -56,5 +59,43 @@
   - GA4 연결 관리 시트 링크: [GA 이벤트(태그 및 트리거) 관리 시트](https://docs.google.com/spreadsheets/d/14MOWROUp9OW6DUsmbUVyK9VuWGpBPQ2UsueqGhLjG64/edit?usp=sharing)
 <br>
 
-### 분석 보고서 작성
-- Past Forward 버전 1 웹사이트와 GA4를 연결하여 수집된 데이터를 분석하여 사용자 행동, 웹사이트 이용 패턴, 전환율 등을 분석해 성과를 측정하고 개선 방향을 제시
+### 데이터 분석: 서비스 배포 이후 데이터 분석 진행
+- 분석 보고서 작성 ([분석보고서 링크](https://docs.google.com/document/d/1YIK8ATV6fXiJJOoxQC8R1zgp7KC6C7jnD5GATIa2ESY/edit?usp=sharing))
+- 분석 내용
+  - GA4 기반 데이터 수집: 실시간으로 웹사이트 사용자 행동 데이터를 수집하여 분석
+  - 트래픽 소스 분석: UTM 파라미터로 유입 경로를 추적하고 마케팅 효과를 평가
+  - 사용자 행동 분석: 회원가입, 로그인, 회고 카드 기능 분석을 통해 사용자 경험을 분석
+    
+- 개선사항 제안서 작성 ([제안서 링크](https://docs.google.com/document/d/11Xnw9UDOTaT4WG8D9xlwKhkFWIV3uwUyqdcwq2vawVs/edit?usp=sharing))
+- 제안서 내용
+  - 배포 관련 마케팅 이벤트 제안 및 활성 사용자 수 증대 방안
+  - 팀 회고 내 팀원 초대기능인 QR버튼의 클릭률 분석 제안
+  - 페이지 경로 태그 수정 제안
+  - 회원가입 페이지 URL 경로 구분 제안
+  - 헤더 카테고리 'Template' 명칭 변경 제안
+  - 모바일 친화적인 사이트로 개선 제안 (반응형 웹디자인)
+<br>
+
+ ## 4. ver2까지의 프로젝트 진행 내용
+- GA4 심층 데이터 분석: 신규 유입자와 재방문자 비율, 이탈률 등 Ver1 데이터를 기반으로 정교한 분석 진행
+- A/B 테스트 진행: 회원가입 버튼명에 관한 A/B 테스트를 진행
+- 대시보드 구현: 루커 스튜디오로 첫 사용자 소스, 활성 사용자 비율, 반복 방문자 비율 등 주요 지표를 시각화하여 데이터 분석 효율성을 높임.
+
+### A/B 테스트 진행 ([A/B 테스트 보고서 링크](https://docs.google.com/document/d/1vNjZ7-qZNG4lWLMeBRapnKCPuC3rgaj-Dl0zEqLZMh0/edit?usp=sharing))
+- 기존 회원가입 버튼 문구가 직관성이 부족해 전환율이 낮을 것이라는 가설에 근거하여 UX 라이팅을 다르게 실험을 진행함
+- B안은 A안보다 안정적인 클릭률과 회원가입 전환을 보였으나, 전환율 차이는 크지 않았음을 확인함
+<br>
+
+### 마케팅 전략 도출 및 실행
+- UTM 파라미터 및 마케팅 채널 분석: 사용자 채널 분석을 통해 검색 유입이 주요 유입 경로로 나타남. SEO 최적화를 제안했으나, 배포 일정 상 콘텐츠 SEO 마케팅으로 방향을 조정했음
+- Google 트렌드 분석: ‘회고 템플릿’ 키워드를 기반으로 마케팅 콘텐츠를 작성하여 사용자 관심을 유도를 목표함
+<br>
+
+### 대시보드 구현 ([대시보드 링크](https://lookerstudio.google.com/reporting/9e64bca2-9823-49a3-9526-e060142334da))
+- GA4를 활용해 수집한 사용자 데이터를 루커스튜디오를 활용하여 주요 지표를 시각화하는 대시보드를 구현함
+- 주요지표
+  - 첫 사용자 소스/매체(마케팅 유입 분석)
+  - 사용자 활성화 및 리텐션 분석
+  - 반복방문자 비율
+  - 신규 방문자 재방문자 비교 분석
+  - 총 방문자 수 
